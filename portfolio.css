@@ -1,0 +1,150 @@
+/* universal */
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    font-family: "Raleway", sans-serif;
+}
+
+/* header-img-part */
+#header .profile img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+}
+/* header-text-part */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+}
+#header .profile h1 a, #header .profile h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#header .profile h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+}
+
+/* header-icon-part */
+#header .profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+/* navbar-starts */
+.nav-menu a i, .nav-menu a:focus i {
+    font-size: 24px;
+    padding-right: 18px;
+    color: #6f7180;
+}
+.nav-menu {
+    padding: 40px 0 0 0;
+}
+.nav-menu a, .nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+    margin-top: 40px;
+}
+#navbar ul{
+    list-style-type: none;
+    margin-left: -27px;
+}
+/* navbar-ends */
+    
+/* hero/boby-starts */
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url('https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/hero-bg.jpg') top center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero::after{
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.hero-container{
+    z-index: 1000;
+    position: relative;
+}
+
+.main-heading{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.section-title .headingtwo {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+
+.about{
+    margin-left: 315px;
+    padding:30px;
+}
+
+@media screen and (max-width : 768px) {
+    .about{
+        margin-left: 0;
+    }
+    #header{
+        display: none;
+        }
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+

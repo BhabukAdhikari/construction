@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+body{
+    overflow-x: hidden;
+    height: 100%,
+};
+
+/* navbar starts */
+.logo1 {
+    display: none;
+} 
+img{
+    height:50px;    
+}
+.navbar{
+    padding: 0;
+}
+.navbar>.container-fluid{
+    background: black;
+    color: aliceblue;
+    padding: 15px;
+    margin-top: 70px;
+    position:fixed;
+    z-index: 100;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.donate-btn{
+    background-color: green;
+    height: 50px;
+    width: 140px;
+    border: none;
+    border-radius:100px;
+}
+/* navbar ends */
+/* header starts */
+.header-bg{
+    background-image: url('./dontaion.jpeg');
+    height: 110vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#content h2{
+    color: aliceblue;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-size: 44px;
+}
+#content p{
+    font-size: 23px;
+    padding-top: 20px;
+}
+/* header ends  */
+/* body content starts  */
+.sec-title.centered {
+    text-align: center !important;
+    margin-top: 80px;
+}
+.sec-title h2 {
+    color: #000000;
+    display: block;
+    text-transform: capitalize;
+}
+h2 {
+    position: relative;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2em;
+    font-family: 'Exo', sans-serif;
+}
+.sec-title .text {
+    font-size: 16px;
+    margin-top: 15px;
+}
+.text {
+    position: relative;
+    line-height: 1.7em;
+    font-size: 16px;
+    color: #5f5e5e;
+    font-weight: 400;
+}
+.feature-block .inner-box {
+    position: relative;
+    width: 265px;
+    height: 245px;
+    padding: 50px 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.feature-block {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 80px;
+}
+h6{
+    margin-top: 15px;
+    font-weight: 700;
+    background: none;
+    font-family: 'Exo', sans-serif;
+}
+.icon img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+/* body content ends  */
+
