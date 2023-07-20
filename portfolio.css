@@ -59,7 +59,7 @@ h1{
 }
 /* navbar-starts */
 .nav-menu a i, .nav-menu a:focus i {
-    font-size: 24px;
+    font-size: 18px;
     padding-right: 18px;
     color: #6f7180;
 }
@@ -89,6 +89,10 @@ h1{
     margin-left: -27px;
 }
 /* navbar-ends */
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
     
 /* hero/boby-starts */
 #hero {
@@ -128,23 +132,425 @@ h1{
     position: relative;
     color: #173b6c;
 }
-
-.about{
-    margin-left: 315px;
-    padding:30px;
+.section-title .headingtwo::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
 }
 
 @media screen and (max-width : 768px) {
-    .about{
-        margin-left: 0;
+    .main{
+        margin-left: 0 !important;
     }
     #header{
         display: none;
         }
 }
-
+/* hero-part-ends */
+/* about-section-starts  */
+.main{
+    margin-left: 290px;
+}
+.about{
+    margin-top: 43px;
+    padding-top: 45px;
+    font-size: 16.8px;
+    }
+/* about-section-img */
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+/* about-content-starts */
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+}
 
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.about .content ul li::before {
+    content: '>';
+    margin-right: 5px;
+    font-size: 12px;
+    color: rgb(66, 66, 233);
+}
+.about .content ul {
+    list-style: oriya;
+}
+p{
+    font-weight: 170;
+}
+.container, .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.section-title .about-section{
+        padding-bottom: 30px;
+    }
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+h2{
+font-family: "Raleway", sans-serif;
+}
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+
+.imgg{
+    height: 44px;
+    width : 44px;
+}
+.items ul li span{
+    padding-left:12px;
+}
+/* about-content-ends */
+/* facts-part-starts */
+.facts {
+    padding-bottom: 30px;
+    }
+
+.facts .count-box span {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #050d18;
+    margin-left: 60px;
+    margin-top:-40px;
+}
+.facts .count-box {
+    padding: 30px;
+    width: 100%;
+}
+i{
+    font-size: px;
+    color:rgb(35, 122, 176);
+}
+.icon-text{
+    margin-left:60px;
+    margin-top:10px;
+}
+strong{
+    font-weight: 550;
+}
+.icons{
+    font-size: 45px;
+}
+/* fact-part-ends */
+/* skills-part-starts */
+.skill-title{
+        padding-bottom: 30px;
+}
+.skill-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+.text-para{
+    font-size: 19px;
+}
+.skill-content {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 580;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--bs-progress-bar-color);
+    text-align: center;
+    white-space: nowrap;
+}
+.skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+}
+.skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+}
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+/* skill-part-ends */
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+}
+.skill-title {
+    padding-bottom: 30px;
+}
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+.resume .resume-item {
+    padding: 0 0 22px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/* RESUME-ENDS */
+/* portfolio-part-starts  */
+.fa-add:before, .fa-plus:before {
+    content: "\2b";
+    padding-right: 200px;
+}
+.plus:before {
+    content: "\2b";
+    padding-right: 218px;
+}
+.portfolio-links{
+    padding-top:20px;
+    padding-left:6px;
+    padding-bottom: 10px;
+}
+.filter-app:hover{
+    background-color: lightblue;
+}
+.filter-web:hover{
+    background-color: lightblue;
+}
+.filter-app:hover + .portfolio-links {
+    opacity: 1; 
+  }
+  .portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.portfolio .portfolio-wrap::before {
+    content: "";
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+/* portfolio-ends */
+/* service-section-starts */
+.service-section{
+padding-bottom: 30px;
+}
+.service-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+.service-section h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+.services .icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #149ddd;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #149ddd;
+}
+.services .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+.services .title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.services .title a {
+    color: #343a40;
+    text-decoration: none;
+}
+.services .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+}
+/* service-section-ends */
+
+.soul{
+    width: 90px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 13px 0px 5px 73px;
+    color: #111;
+}
+.post{
+    font-size: 14px;
+    color: #999;
+    margin: 0px 0px 5px 106px;  
+}
+
+.font-18{
+    font-size: 18px;
+}
+.img-map{
+    height: 290px;
+    width:100%;
+}
+.info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.info i {
+    font-size: 20px;
+    color: #149ddd;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+.name-email{
+    display:flex;
+}
+.email{
+    padding-left:30px;
+}
+.message{
+    padding:100px 180px;
+    color: #212529;
+    border: 1px solid #ced4da;
+}
+form{
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+/* navbar toggle */
+
+.toggle{
+    display: none;
+}
+
+@media screen and (max-width : 768px) {
+    .toggle{
+        display: block;
+    }
+}
